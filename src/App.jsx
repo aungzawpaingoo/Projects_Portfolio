@@ -1,20 +1,24 @@
-import { useState } from 'react'
-// import './App.css'
-import Navbar from '../src/components/NavBar'
-import HeroSession from '../src/components/HeroSession'
-import Projects from '../src/components/Projects'
-import ProjectCard from '../src/components/ProjectCard'
+import React from 'react'
+import NavigationBar from './components/NavigationBar'
+import HeroSession from './components/HeroSession'
+import MyWorksSession from './components/MyWorksSession'
+import ProjectsSession from './components/ProjectsSession'
 
-
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
-    <>
-     <Navbar/>
-     <HeroSession/>
-     <Projects/>
-    </>
+
+    <div>
+      
+    <NavigationBar/>
+
+    <HeroSession/>
+    
+    <MyWorksSession/>
+    
+    <ProjectsSession/>
+    
+
+    </div>
   )
 }
 
