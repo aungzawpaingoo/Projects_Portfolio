@@ -6,7 +6,7 @@ import ProjectDataCard from './ProjectDataCard'
 const ProjectsSession = () => {
   return (
 
-    <div className='bg-gray-700 p-10'>
+    <div className='bg-white p-10'>
 
     <div>
 

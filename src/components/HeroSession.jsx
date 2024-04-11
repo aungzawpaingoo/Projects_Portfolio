@@ -7,7 +7,7 @@ import ProfileImage from '../assets/profileImage.jpg'
 const HeroSession = () => {
   return (
 
-    <section className='bg-slate-500 p-10'>
+    <section className='bg-white px-10 py-10'>
 
       <h1 className='text-4xl font-medium leading'>Aung Zaw Paing Oo</h1>
       

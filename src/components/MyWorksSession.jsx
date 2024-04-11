@@ -5,7 +5,7 @@ import EmploymentDataCard from './EmploymentDataCard'
 const MyWorksSession = () => {
   return (
 
-    <div className='bg-gray-400 p-10'>
+    <div className='bg-white px-4'>
 
     <div>
 
