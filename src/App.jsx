@@ -11,24 +11,33 @@ const App = () => {
 
 
     <Router>
-      <NavigationBar/>
-      <main>
-        <Switch>
+      
+      <div className="flex">
 
-        <Route path="/" exact>
-        <HeroSession/>
-        </Route>
+        <NavigationBar />
+       
+        <main className="flex-1">
+       
+          <Switch>
 
-        <Route path="/work" exact>
-        <MyWorksSession/>
-        </Route>
-
-        <Route path="/projects" exact>
-        <ProjectsSession/>
-        </Route>
-
-        </Switch>
-      </main>
+            <Route path="/" exact>
+              <ProjectsSession />
+            </Route>
+            
+            <Route path="/work" exact>
+              <MyWorksSession />
+            </Route>
+            
+            <Route path="/projects" exact>
+              <HeroSession />
+            </Route>
+          
+          </Switch>
+        
+        </main>
+      
+      </div>
+    
     </Router>
 
   )
